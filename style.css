@@ -1,0 +1,25 @@
+body {
+    font-family: Verdana, "Trebuchet MS", Geneva, sans-serif;
+    font-size: 30px;
+    background-color: #FFFFF0;
+}
+
+.timer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.timer-title {
+    text-transform: uppercase;
+}
+
+.timer-numbers {
+    display: flex;
+}
+
+.timer-letters {
+    color: lightslategray;
+}
